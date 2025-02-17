@@ -2,11 +2,12 @@
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+   
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color:beige;
+    background-color:white;
     color: black;
     margin: 20px;
     padding: 20px;
@@ -17,10 +18,12 @@ body {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    
 }
 
 .project-box {
-    background-color: #2a2728;
+    background-color: #9fcfdfdf;
     border-radius: 10px;
     padding: 20px;
     width: 500px;
@@ -39,9 +42,45 @@ body {
 }
 
 .picture {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 100px;
     object-fit: cover;
     border: 2px solid black;
+}
+.heading{
+
+    width: var(--container-widget-width, 438.099px);
+    max-width: 438.099px;
+    --container-widget-width: 438.099px;
+    --container-widget-flex-grow: 0;
+}
+
+.content{
+
+    color: var(--e-global-color-9e7f9b0);
+    font-family: "Figtree", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: var(--container-widget-width, 500px);
+    max-width: 500px;
+    --container-widget-width: 500px;
+    --container-widget-flex-grow: 0;
+    margin: 0px 0px 0px 0px;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.linkedin{
+    width: 20px;
+    height: 20px;
+}
+
+.gmail{
+    width: 20px;
+    height: 20px;
+}
+
+.name{
+    display: flex;
+    justify-content: flex-start;
 }
